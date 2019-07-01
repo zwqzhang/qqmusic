@@ -1,0 +1,187 @@
+.playpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    width: 100%;
+    height: 1.3rem;
+    background: #fff;
+    padding: 3%;
+    color: #333;
+    box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.1)
+}
+
+.aimg {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    display: flex;
+}
+
+.aimg span {
+    flex: 1;
+    margin-left: 2%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 13px;
+}
+
+.header2 img {
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.header2 .btn {
+    /* position: absolute;
+    right: 0;
+    top: 0.25rem; */
+    display: inline-block;
+    margin-top: 0.25rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 13px;
+    width: 1.2rem;
+    height: 0.5rem;
+    vertical-align: middle;
+    border: 1px solid #cccc;
+    border-radius: 0.25rem;
+    color: #333;
+}
+
+.text {
+    text-align: center;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.songName {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: .1em;
+}
+
+.text em {
+    margin: 0 .2rem .15rem;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.bgpic {
+    width: 94%;
+    height: 250px;
+    margin: 20px auto;
+    display: none;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1) inset;
+    /* background: rgba(0, 0, 0, 0.1) */
+}
+
+.songtext {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.line{
+    height: 50px;
+}
+.songtext p {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    margin: 0;
+    font-size: 12px;
+}
+
+.select {
+    color: #31c27c;
+    font-weight: bold;
+}
+
+.picimg {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.picimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.control {
+    width: 80%;
+    height: 0.8rem;
+    margin: 10px auto;
+    display: flex;
+    text-align: center;
+}
+
+.control .div {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* border: 1px solid #121212; */
+    /* flex: 1; */
+    margin: 0 16px;
+
+}
+
+.control div span {
+    margin: 0 5%;
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    border: 1px solid #121212;
+    border-radius: 50%;
+    color: #6d6868;
+    font-size: 20px;
+}
+
+.control div .play {
+    display: inline-block;
+}
+
+.control div .pause {
+    display: none;
+}
+.progress{
+    width: 80%;
+    margin: 10px auto 20px;
+    height: 0.06rem;
+    background: #ccc;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.05rem;
+    cursor: pointer;
+}
+.inner{
+    width: 0%;
+    height: 0.06rem;
+    background: rgb(144, 255, 246);
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}

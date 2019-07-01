@@ -1,0 +1,180 @@
+.songhome {
+    width: 100%;
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+
+.header1 {
+    width: 100%;
+    height: 1rem;
+    background: #f8f8f8;
+    position: fixed;
+    padding: 0 3%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    color: #333;
+}
+
+.aimg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header1 img {
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    width: 40px;
+    height: 40px;
+}
+
+.header1 span {
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 1rem;
+}
+
+.header1 .btn {
+    position: absolute;
+    right: 0;
+    top: 0.25rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 0.5rem;
+    width: 1.5rem;
+    height: 0.5rem;
+    vertical-align: middle;
+    border: 1px solid #cccc;
+    border-radius: 0.25rem;
+    color: #333;
+    font-size: 13px;
+}
+
+.player {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pic {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: .25rem;
+    position: relative;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+.pic span{
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color:#fff;
+    background: rgba(0, 0, 0, .6)
+}
+
+.pltitle {
+    font-size: 16px;
+    color: #121212;
+    margin-bottom: .15rem;
+}
+
+.pltime {
+    margin-bottom: .12rem;
+    font-size: 14px;
+    color: #121212
+}
+
+.plupdatetime {
+    font-size: 12px;
+    color: grey;
+}
+
+.player_btn {
+    display: block;
+    width: 2.9rem;
+    height: .6rem;
+    line-height: .6rem;
+    border-radius: .6rem;
+    box-shadow: 0 6px 32px rgba(24, 213, 156, .5);
+    background-color: #22d59c;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.songnum {
+    margin-top: 20px;
+}
+
+.songnum h3 {
+    padding: 0 10px;
+    font-size: 12px;
+    color: grey
+}
+
+.list_one {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    /* padding-right: 5px; */
+    padding: .12rem .09rem .12rem 0
+}
+
+.list_left {
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.list_left p {
+    margin-bottom: .1em;
+    margin-top: -.1em;
+}
+
+.list_left i {
+    font-size: 8px;
+}
+
+.list_center {
+    margin-left: 5px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.list_center h4 {
+    width: 90%;
+    margin-bottom: .15em;
+    color: #121212;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list_center em {
+    font-size: 10px;
+    color: rgba(0, 0, 0, .4);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right:4px;
+}
+
+.list_right {
+    width: 20px;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}

@@ -1,0 +1,133 @@
+.search {
+    background: #fff;
+    min-height: 380px;
+}
+
+.bg {
+    width: 100%;
+    height: 0.9rem;
+    padding: 5px;
+    background: #f4f4f4;
+    overflow: hidden;
+}
+
+.what {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    height: 0.7rem;
+    margin: 0px auto;
+    text-align: right;
+    background: #fff;
+    line-height: 0.7rem;
+    color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+.width{
+    width: 80%;
+}
+.give1{
+    float: left;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    width: 20%;
+    text-align: center;
+    display: none;
+}
+.give {
+    float: left;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    width: 20%;
+    text-align: center;
+}
+
+.what span {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: rgba(0, 0, 0, .3);
+}
+
+.what input {
+    display: inline-block;
+    width: 80%;
+    height: 0.6rem;
+    color:#333;
+    outline: none;
+    font-size: 13px;
+    color: rgba(0, 0, 0, .3);
+}
+
+.hotsong {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+}
+
+.hotsong span {
+    display: inline-block;
+    padding: 8px;
+    height: 0.7rem;
+    line-height: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, .6);
+    margin: 5px;
+    border-radius: 0.35rem;
+}
+
+.ul {
+    width: 100%;
+    padding: 5px;
+}
+
+.searchlist {
+    width: 100%;
+    height: 0.8rem;
+    overflow: hidden;
+    display: flex;
+    margin: 5px 0;
+}
+
+.li_left {
+    width: 0.8rem;
+    height: 0.rem;
+    margin-right: 10px;
+    line-height: 0.8rem;
+}
+
+.li_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.li_right {
+    flex: 1;
+    height: 0.7rem;
+    margin-top: .05rem;
+    overflow: hidden;
+}
+
+.li_right h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #121212;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.li_right p {
+    margin: 0;
+    font-size: 10px;
+}
+.li_right em {
+    display: inline-block;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 10px;
+    color: grey;
+    margin-right: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

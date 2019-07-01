@@ -1,0 +1,95 @@
+.home {
+    padding-top: 1.7rem;
+    width: 100vw;
+    min-height: 480px;
+    /* background: #efef; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 1.6rem;
+    background: #fff;
+    position: fixed;
+    padding: 5%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    color: #333;
+}
+
+.aimg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    width: 120px;
+    height: 35px;
+}
+
+.header .btn {
+    position: absolute;
+    right: 0;
+    top: 0.25rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 0.5rem;
+    width: 1.5rem;
+    height: 0.5rem;
+    vertical-align: middle;
+    border: 1px solid #cccc;
+    border-radius: 0.25rem;
+    color: #333;
+}
+
+.content {
+    width: 100%;
+    flex: 1;
+    margin-bottom: 1.2rem;
+}
+
+.nav {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    background: #fafafa;
+}
+
+.nav a {
+    flex: 1;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #333;
+    font-size: 0.25rem;
+}
+
+.nav .select {
+    color: #31c27c;
+    border-bottom: 2px solid #31c27c;
+}
+
+.fix {
+    width: 100%;
+    height: 1.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+.an {
+    width: 70%;
+    height: 0.8rem;
+    background: #30c27c;
+    border-radius: 0.4rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    margin: 0.2rem auto;
+}

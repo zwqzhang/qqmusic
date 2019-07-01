@@ -1,0 +1,125 @@
+.recom {
+    width: 100%;
+    height: 100%;
+    background: #efef;
+}
+
+.recom .banner .ant-carousel .slick-dots-bottom {
+    bottom: 18px;
+}
+
+
+.recom .ant-carousel .slick-dots li button {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+
+.banner img {
+    width: 100%;
+    height: 2.8rem;
+}
+
+/* .recom .ant-carousel .slick-dots .slick-active{
+    width: 5px;
+    height: 5px;
+} */
+.station {
+    width: 100%;
+    height: 4.2rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #efef;
+}
+
+.station h2 {
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.con {
+    flex: 1;
+    margin-right: -3%;
+}
+
+.left {
+    width: 46%;
+    float: left;
+    margin-right: 4%;
+    position: relative;
+    background: #fff;
+}
+
+.right {
+    position: relative;
+}
+
+.con .imgPar {
+    width: 100%;
+    height: 2.8rem;
+}
+
+.con img {
+    width: 100%;
+    height: 100%;
+}
+
+.con h3 {
+    padding: 8px;
+    margin-bottom: 0;
+}
+
+.con .play {
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.foot {
+    width: 100%;
+    text-align: center;
+    background: #efef;
+}
+
+.foot .title {
+    font-size: 16px;
+}
+
+.foot img {
+    width: 1.6rem;
+    height: 0.5rem;
+}
+
+.foot .time {
+    margin-top: 0.5em;
+    font-size: 0.12rem;
+}
+
+.foot p {
+    margin-bottom: 0.5em;
+}
+
+/* .fix {
+    width: 100%;
+    height: 1.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+.an {
+    width: 70%;
+    height: 0.8rem;
+    background: #30c27c;
+    border-radius: 0.4rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    margin: 0.2rem auto;
+} */
